@@ -1,0 +1,12 @@
+.Banner {
+    /* background-image: url(https://i.pinimg.com/originals/8a/ce/a9/8acea9261c892e75b0651de1d4f4e0e1.jpg); */
+    /* background-image: url(https://wallpapercave.com/wp/wp1829928.jpg); */
+    background-image: url(https://static.zerochan.net/Date.A.Live.full.1536510.jpg);
+    padding-top: 200px;
+    padding-bottom: 50px;
+    color: white;
+}
+
+.banner__title {
+    text-shadow: 3px 3px rgb(97, 91, 91) !important;
+}
