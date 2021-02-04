@@ -34,7 +34,7 @@ export function Menu() {
                     <li><Link to="/sanpham">SẢN PHẨM</Link></li>
                     <li><Link to="/tintuc">TIN TỨC</Link></li>
                     <li><Link to="/lienhe">LIÊN HỆ</Link></li>
-                    <li id="cart"><Link to="/giohang">GiỎ HÀNG ▾</Link></li>
+                    <li id="cart"><Link to="/giohang">GIỎ HÀNG ▾</Link></li>
                 </ul>
                 </Container>
             </nav>

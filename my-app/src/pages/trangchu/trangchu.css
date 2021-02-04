@@ -1,0 +1,105 @@
+.homepage__item {
+    text-align: center;
+}
+
+.homepage__item--type1 {
+    background-color: rgb(245, 243, 240);
+}
+
+.homepage__item--type2 {
+    background-color: rgb(236, 232, 230);
+}
+
+.homepage__item--image {
+    width: 70%;
+    padding: 25px;
+}
+
+.homepage__item--title {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.homepage__item--description {
+    font-size: 14px;
+}
+
+.homepage__bigtitle {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 50px 0px;
+}
+
+.homepage__introduce {
+    text-align: left;
+}
+
+.homepage__introduce--image {
+    border-radius: 5px;
+}
+
+.homepage__introduce--title {
+    padding: 10px 0px 0px 0px;
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.homepage__introduce--description {
+    font-size: 14px;
+}
+
+.homepage__introduce--button {
+    border-radius: 6px !important;
+    font-style: italic;
+    font-size: 14px !important;
+    padding: 5px 12px !important;
+}
+
+.homepage__companyintroduce {
+    margin-bottom: 60px;
+}
+
+.homepage__bigtitle2 {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    padding: 50px 0px;
+}
+
+.homepage__newproducts {
+    background-image: url(https://static.zerochan.net/Date.A.Live.full.1536510.jpg);
+    background-color: black;
+    width: 100%;
+    background-repeat: no-repeat !important;
+    padding-bottom: 50px;
+}
+
+.homepage__newproduct {
+    background-color: white;
+}
+
+.homepage__newproduct--name {
+    padding: 20px 0px 10px 0px;
+    font-weight: bold;
+}
+
+.homepage__newproduct--image {
+    width: 60%;
+}
+
+.homepage__newproduct--price {
+    color: red;
+    padding: 20px 0px 5px 0px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.homepage__newproduct--button {
+    margin-bottom: 30px !important;
+    font-size: 12px !important;
+    font-weight: bold !important;
+}
