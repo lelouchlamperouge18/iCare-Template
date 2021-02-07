@@ -2,20 +2,8 @@ import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
 import './menu.css';
 import {
-    Collapse,
-    Navbar,
-    NavbarToggler,
-    NavbarBrand,
-    Nav,
-    NavItem,
-    NavLink,
-    UncontrolledDropdown,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem,
-    NavbarText,
     Container
-  } from 'reactstrap';
+} from 'reactstrap';
   
 export function Menu() {
     return (

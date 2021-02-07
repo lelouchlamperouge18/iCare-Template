@@ -72,7 +72,7 @@
 
 .homepage__newproducts {
     background-image: url(https://static.zerochan.net/Date.A.Live.full.1536510.jpg);
-    background-color: black;
+    /* background: rgb(14, 1, 1); */
     width: 100%;
     background-repeat: no-repeat !important;
     padding-bottom: 50px;
@@ -103,3 +103,75 @@
     font-size: 12px !important;
     font-weight: bold !important;
 }
+
+
+.homepage__newsfeedback {
+    background-color: rgb(243, 242, 240);
+}
+
+.homepage__newsfeedback--image1 {
+    width: 120%;
+}
+
+.homepage__bigtitle3 {
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    padding: 50px 0px;
+}
+
+.homepage__newsfeedback--title {
+    text-align: left;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.homepage__newsfeedback--desciption {
+    text-align: left;
+    font-size: 13px;
+    min-width: 20px;
+}
+
+.homepage__newsfeedback--day {
+    border-radius: 4px 4px 0px 0px !important;
+    background-color: red !important;
+    min-width: 45px;
+    min-height: 45px;
+    margin-left: -15px;
+    font-size: 17px !important;
+    text-align: center !important;
+}
+
+.homepage__newsfeedback--month {
+    border-radius: 0px 0px 4px 4px !important;
+    background-color: black !important;
+    min-width: 45px;
+    min-height: 45px;
+    margin-left: -15px;
+    font-size: 17px !important;
+    text-align: center !important;
+}
+
+.homepage__newsfeedback--des {
+    margin-top: -4px !important;
+    margin-left: -5px !important;
+}
+
+.homepage__newsfeedback--image2 {
+    width: 80%;
+    border-radius: 180px;
+}
+
+.homepage__newsfeedback--nameguest {
+    margin: 20px 0px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.homepage__newsfeedback--feedbackguest {
+    text-align: justify;
+    font-size: 13px;
+}
+
+
+

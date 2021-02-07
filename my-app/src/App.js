@@ -4,6 +4,7 @@ import logo from './logo.svg';
 import { Header } from './components/header/header.js'; 
 import { Menu } from './components/menu/menu.js'; 
 import { Banner } from './components/banner/banner.js'; 
+import { Footer } from './components/footer/footer.js'; 
 import './App.css';
 
 import { Homepage } from './pages/trangchu/trangchu.js'
@@ -23,6 +24,7 @@ function App() {
             <Route path="/gioithieu" component={Gioithieu} />
             <Route path="/lienhe" component={Lienhe} />
           </Switch>
+          <Footer />
         </BrowserRouter>
       </Suspense>    
     </div>

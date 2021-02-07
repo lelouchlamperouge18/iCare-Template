@@ -1,0 +1,30 @@
+.Footer {
+    background: black;
+    color: white;
+    margin-top: 50px;
+    padding-top: 50px;
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+.footer__title {
+    font-style: italic;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.footer__info {
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+.footer__list {
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 14px;
+    padding-inline-start: 0px !important;
+}
+
+.footer__list li {
+    padding: 4px 0px;
+}
