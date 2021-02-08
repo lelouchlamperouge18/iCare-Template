@@ -1,0 +1,68 @@
+.Gioithieu {
+    padding: 0px 0px 40px 0px;
+}
+
+.gioithieu__title {
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 45px 0px 45px 0px;
+}
+
+.gioithieu__visionmisson--history {
+    padding-bottom: 30px;
+}
+
+.gioithieu__visionmisson {
+    background-color: rgb(245, 245, 245);
+    padding-bottom: 30px;
+    text-align: left;
+}
+
+.gioithieu__visionmisson--des {
+    padding: 10px 0px;
+}
+
+.gioithieu__visionmisson--des1 {
+    color: red;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.gioithieu__visionmisson--des2 {
+    font-size: 13px;
+}
+
+.gioithieu__visionmisson--des3 {
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.gioithieu__achievement {
+    text-align: left;
+}
+
+.gioithieu__achievement--des1 {
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.gioithieu__achievement--des2 ul {
+    padding-inline-start: 0 !important;
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    font-size: 14px;
+}
+
+.gioithieu__visionmisson--block {
+    text-align: center !important;
+    border: solid 1px red;
+    border-radius: 90px;
+}

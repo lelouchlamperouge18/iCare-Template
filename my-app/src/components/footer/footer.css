@@ -1,10 +1,9 @@
 .Footer {
     background: black;
     color: white;
-    margin-top: 50px;
     padding-top: 50px;
+    padding-bottom: 20px;
     text-align: left;
-    padding-bottom: 30px;
 }
 
 .footer__title {
