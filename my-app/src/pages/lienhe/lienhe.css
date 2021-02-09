@@ -1,0 +1,75 @@
+.Lienhe {
+    padding: 0px 0px 50px 0px;
+}
+
+.lienhe__title {
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 45px 0px 45px 0px;
+}
+
+.lienhe__info {
+    text-align: left;
+    font-size: 14px;
+    padding: 15px 0px;
+}
+
+.lienhe__title1 {
+    color: black;
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0px 0px 10px 0px;
+}
+
+.lienhe__title2 {
+    color: black;
+    text-align: left;
+    font-size: 14px !important
+}
+
+.lienhe__employee--box {
+    background-color: rgb(249, 250, 250);
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border-radius: 7px;
+}
+
+.lienhe__employee--image {
+    border-radius: 90px;
+}
+
+.lienhe__employee--name {
+    color: red;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: left;
+}
+
+.lienhe__employee--job {
+    color: black;
+    font-size: 13px;
+    text-align: left;
+}
+
+.lienhe__employee--chat {
+    background: red;
+    color: white;
+    padding: 4px 12px;
+    margin-top: 10px;
+    font-size: 11px;
+    border-radius: 15px;
+}
+
+.lienhe__submit {
+    border-radius: 10px !important;
+    padding: 5px 35px !important;
+    font-size: 12px !important;
+    font-weight: bold !important;
+    color: white !important;
+    background-color: rgb(216, 7, 7) !important;
+    float: left !important;
+}
