@@ -1,5 +1,5 @@
 .dropdownmenu {
-    background-color: #e93131;
+    background-color: #ed1d24;
     display: flex;
     position: relative;
 }
@@ -8,7 +8,7 @@
 	padding: 0;
 }
 .dropdownmenu ul {
-	background: #e93131;
+	background: #ed1d24;
 	list-style: none;
 	width: 100%;
 }
@@ -17,11 +17,14 @@
 	position: relative;
     width:auto;
 }
+.dropdownmenu ul li a{
+	max-height: 55px;
+}
 .dropdownmenu a {
 	background: #e93131;
 	color: #FFFFFF;
 	display: block;
-	font: bold 12px/20px sans-serif;
+	font: bold 12px/25px sans-serif;
 	padding: 15px 20px;
 	text-align: left;
 	text-decoration: none;
@@ -32,7 +35,7 @@
 	transition: all .25s ease;
 }
 .dropdownmenu li:hover a {
-    background: #b30303;
+    background: #b30303; 
     text-decoration: none;
     color: white !important;
 }
@@ -40,13 +43,13 @@
 	left: 0;
 	opacity: 0;
 	position: absolute;
-	top: 35px;
+	top: 40px;
 	visibility: hidden;
 	z-index: 1;
 }
 li:hover ul#submenu {
 	opacity: 1;
-	top: 50px;	/* adjust this as per top nav padding top & bottom comes */
+	top: 55px;	/* adjust this as per top nav padding top & bottom comes */
 	visibility: visible;
 }
 #submenu li {
@@ -58,6 +61,7 @@ li:hover ul#submenu {
 }
 #submenu a {
 	background-color:#000000;
+	max-height: 100px !important;
 }
 #cart {
     float: right;

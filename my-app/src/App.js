@@ -10,6 +10,7 @@ import './App.css';
 import { Homepage } from './pages/trangchu/trangchu.js'
 import { Gioithieu } from './pages/gioithieu/gioithieu.js'
 import { Lienhe } from './pages/lienhe/lienhe.js'
+import { Tintuc } from './pages/tintuc/tintuc.js'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route exact path="/" component={Homepage} />
             <Route path="/gioithieu" component={Gioithieu} />
             <Route path="/lienhe" component={Lienhe} />
+            <Route path="/tintuc" component={Tintuc} />
           </Switch>
           <Footer />
         </BrowserRouter>

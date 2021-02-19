@@ -1,0 +1,62 @@
+.Header {
+	margin: 10px auto;
+}
+
+.header__input {
+	padding: 10px 10px;
+	width: 650px;
+	margin-top: 20px;
+	border: solid 2px rgb(211, 211, 211);
+	border-radius: 6px 0px 0px 6px;
+	font-style: italic;
+}
+
+.header__button {
+	padding: 10px 10px;
+	border-radius: 0px 6px 6px 0px;
+	border: solid 2px black;
+	margin-left: -1px;
+	background-color: black;
+	height: auto;
+	color: white;
+}
+
+.header__login--info {
+	float: right;
+	margin-left: 20px;
+	margin-bottom: 5px;
+}
+
+.header__login {
+	font-size: 12px !important;
+	text-decoration: none;
+	color: black !important;
+	text-align: right;
+}
+
+.header__login--blur {
+	opacity: 0.6;
+}
+
+.header__phone {
+	float: right;
+	text-align: right;
+	font-size: 20px;
+	color: black;
+	font-weight: bold;
+	display: inline-block; 
+}
+
+.header__icon1 {
+	font-size: 15px !important;
+}
+
+.header__icon2 {
+	font-size: 30px !important;
+	color: red;
+}
+
+.header__logo {
+	width: 55px;
+	height: auto;
+}

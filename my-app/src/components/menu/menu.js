@@ -11,7 +11,9 @@ export function Menu() {
             <nav class="dropdownmenu">
                 <Container>
                 <ul>
-                    <li><Link to="/"> HOME </Link></li>
+                    <li><Link to="/"> 
+                    <i class="material-icons" height="55">home</i>
+                    </Link></li>
                     <li><Link to="/gioithieu">GIỚI THIỆU</Link>
                     <ul id="submenu">
                         <li><a href="#">Giới thiệu chung</a></li>
